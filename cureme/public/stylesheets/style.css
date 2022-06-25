@@ -1,0 +1,118 @@
+#HomeBg {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: auto;
+  /* z-index: -1; */
+  opacity: 0.5;
+}
+#heading {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  
+}
+#description {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#homeBtn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(206, 107, 209);
+  border: 0px;
+
+}
+.feature {
+  padding: 3% 3%;
+  background-color: rgb(186, 201, 201);
+}
+.feature-box {
+  background-color: rgb(186, 201, 201);
+  /* background-image: url("../images/sec2.jpg"); */
+  text-align: center;
+  line-height: 40px;
+  padding: 5% 5%;
+}
+
+.infocard{
+  align-items: center;
+  } 
+  .card-row{
+      /* margin: auto; */
+      justify-content: center;
+    
+  }
+   
+  .card-img-top{
+  height:100%;
+  opacity: 0.4;
+  width: 100%;
+   margin-left: 0px;
+   }
+  
+  
+  .card-img-top:hover{
+      opacity: 1;
+  } 
+
+footer{
+  background-image: url(../images/footer.jpg);
+  opacity: 1;
+  background-color: rgb(243, 200, 184);
+}
+
+
+         /* SIGN INS  */
+            .form-row{
+              margin: auto;
+              justify-content: center;
+              }
+              .signin{
+                  margin: 15px;
+                  margin-top: 7%;
+                  margin-bottom: 7%;
+                  background-color: rgb(215, 255, 255);
+                  padding: 38px;
+              }
+              .signin-admin{
+          
+                  margin: 15px;
+                  margin-top: 7%;
+                  background-color: rgb(215, 255, 255);
+                  padding: 38px;
+                  margin-bottom: 7%;
+              }
+              .form-heading{
+                  padding-top:10px;
+                  text-align: center;
+                  font-weight: 600; 
+             }
+             .signin-btn{
+              font-weight: bold;
+              margin: auto;
+              align-items: center;
+              background-color: rgb(123, 190, 221);
+              border: 0px;
+              width: 10rem;
+             }
+             .signin-btn:hover{
+          
+              background-color: rgba(127, 190, 206, 0.671);
+          
+             }
+          
+             .signup{
+    
+              margin: auto;
+              margin-top: 7%;
+              width: 40%;
+              background-color: rgb(215, 255, 255);
+              padding: 38px;
+              margin-bottom: 7%;
+          }

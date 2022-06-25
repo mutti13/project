@@ -1,0 +1,19 @@
+    //- include ./partials/navbar
+
+
+form.signup
+  h3.form-heading SIGN UP
+  br
+  .mb-4
+    label.form-label(for='exampleInputEmail1') First Name
+    input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp')
+    label.form-label(for='exampleInputEmail1') Last Name
+    input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp')
+    label.form-label(for='exampleInputEmail1') Email address
+    input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp')
+  .mb-4
+    label.form-label(for='exampleInputPassword1') Password
+    input#exampleInputPassword1.form-control(type='password')
+  button.btn.btn-primary.signin-btn(type='submit') SIGN IN
+
+   include ./partials/footer
